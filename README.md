@@ -1,30 +1,28 @@
-# Kaazhim Nur Kaarim - Personal Portfolio
+# Kaazhim Nur Kaarim — Interactive Portfolio
 
-A personal portfolio website showcasing my skills, experience, and projects as an IT Professional, Web Developer, and Software Engineer.
+Personal portfolio of **Kaazhim Nur Kaarim** — IT Professional, Full-Stack Web Developer, and Software Engineer based in Selangor, Malaysia.
 
-## 🚀 About Me
+## Highlights & Interactive Features
 
-I'm a Bachelor of Information Technology (Hons.) student at UiTM Shah Alam with a CGPA of 3.55. Currently interning at Encorp Berhad's Technology and Digital Unit.
+- **WebGL Aurora & Particle Backdrop** — Dynamic GLSL shader backdrop and cursor-reactive particle field across 5 themes (`Crimson Forge`, `Astral Cyber`, `Emerald Matrix`, `Solar Gold`, and `Studio Paper`).
+- **Bible Strong Avatar Lab Integration** (`@bible-strong/avatar-web`) — Live cursor-tracking procedural 3D SVG hero companion + floating companion + full interactive **Avatar Lab** customizer (23 animations, 28 expressions, 9 primary surfaces, 7 3D accessories, colors, speech trigger, and JSON/SVG/PNG export).
+- **Interactive Skill Constellation** — Spring-physics HTML5 Canvas where visitors can drag nodes, inspect proficiencies, and filter by engineering domain.
+- **Filterable Projects & Case Study Modal** — Architectural previews, category filters, live search, and links to repositories and live deployments.
+- **Developer Terminal & Command Palette (`Ctrl+K` / `⌘K`)** — Built-in shell (`help`, `whoami`, `projects`, `skills`, `avatar <anim>`, `matrix`, `theme <id>`, etc.) and quick keyboard navigation.
+- **Web Audio Synth (Opt-In)** — Procedural Web Audio feedback and ambient synth toggle.
 
-## 🛠️ Skills
+## Stack & Structure
 
-- **Programming**: Python, Java, C++, PHP, JavaScript, SQL, HTML, CSS
-- **Databases**: MySQL, NoSQL, Oracle APEX, Power BI
-- **Tools**: Figma, Android Studio, Flutter, VS Code, ProcessMaker
-- **Languages**: Malay (Fluent), English (Fluent)
+Zero-build static ES modules ready for direct Vercel or static deployment:
 
-## 🏆 Achievements
+- `index.html` — Semantic layout
+- `css/styles.css` — Theme variables, glassmorphism & motion styling
+- `js/main.js`, `js/data.js`, `js/modules/*` — Modular interactive systems
+- `vendor/avatar-web.js` — Bundled `@bible-strong/avatar-web` runtime (MIT)
+- `assets/strobi.avatar.json` — Procedural avatar definition
 
-- Gold Medalist, KL International Invention & Innovation Symposium 2024
-- Oracle Academy Certified: Database Design & SQL Programming
-- Top 10, Python Data Hackathon 2024
-
-## 📫 Contact
+## Contact
 
 - **Email**: kaazhim03@gmail.com
 - **LinkedIn**: [linkedin.com/in/kaazhim-kaarim-7019a427b](https://linkedin.com/in/kaazhim-kaarim-7019a427b)
 - **GitHub**: [github.com/kaazhim](https://github.com/kaazhim)
-
-## 📄 License
-
-This project is open source and available for personal use.
